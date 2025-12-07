@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { watch } = require("fs");
 
 module.exports = {
-  mode: "development", // Or 'production'
+  mode: "development", // Or "production"
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
